@@ -7,7 +7,7 @@
 .header{
   flex: 20%;
   background-color: lightgreen;
-  
+  background: url("") center/100% 100%
 }
 .menu{
     flex: 5%;
