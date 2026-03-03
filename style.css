@@ -7,7 +7,7 @@
 .header{
   flex: 20%;
   background-color: lightgreen;
-  background: url("../RDJ.jpg") center/100% 100% ;
+  background: url("images/RDJ.jpg") center/100% 100% ;
 }
 .menu{
     flex: 5%;
