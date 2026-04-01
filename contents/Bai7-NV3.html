@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <title>Bai7-NV3</title>
 </head>
+    <p id="kd"> </p>
+    <script>
+      let pp = new URLsearchParams(window.location.search);
+      let ten = pp.get("txtTen");
+      let yk = pp.get("txtComment");
+      document.getElementById("kd").innerHTML = "Cảm ơn bạn" + ten
+      + " đã góp ý <br><br> Chúng tôi ghi nhận ý kiến của bạn: <br>"
+      + yk ;
+    </script>
 <body>
     <h3> RDJ rất vui khi nhận được những đóng góp nhẹ nhàng của bạn</h3>
     <p> Công ty TNHH RDJ xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới. Và 1 lần nữa xin cảm ơn đã chọn công ty RDJ</p>
