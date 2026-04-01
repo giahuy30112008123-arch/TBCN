@@ -4,6 +4,15 @@
     <title>Bai6-NV2</title> 
   </head> 
   <body> 
+    <p id="kd"> </p>
+    <script>
+      let pp = new URLsearchParams(window.location.search);
+      let ten = pp.get("txtTen");
+      let yk = pp.get("txtComment");
+      document.getElementById("kd").innerHTML = "Cảm ơn bạn" + ten
+      + " đã góp ý <br><br> Chúng tôi ghi nhận ý kiến của bạn: <br>"
+      + yk ;
+    </script>
     <form action="Bai6-NV1.html"> 
       <h3> Rowlet rất vui khi bạn đã đăng ký</h3> 
       <p> Công ty TNHH RDJ xin ghi nhận và chúc bạn sức khỏe</p> 
